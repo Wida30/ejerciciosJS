@@ -1,7 +1,7 @@
-const character = {name: 'Jack Sparrow', age: 10};
+//Dado el siguiente javascript, cambia el valor de la propiedad ``age`` a 25.
 
-const age = character.age =25;
+const character = { name: "Jack Sparrow", age: 10 };
+
+const age = (character.age = 25);
 
 console.log(age);
-
-

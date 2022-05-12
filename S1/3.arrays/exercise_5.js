@@ -1,5 +1,7 @@
+//Elimina el último elemento del array y muestra el primero y el último por consola.
+
 const RickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
-const elmina = RickAndMortyCharacters.shift();
+const elmina = RickAndMortyCharacters.pop();
 
-console.log (elmina[0],elmina[elmina.length -1]);
+console.log (RickAndMortyCharacters[0],RickAndMortyCharacters[RickAndMortyCharacters.length -1]);
