@@ -11,11 +11,20 @@ const toys = [
     {id: 40, name: 'El gato felix', sellCount: 35}
 ]
 
-for (let i = 0; i < toys.length; i++) {
-   if (toys[i].sellCount > 15) {
-       popularToys.push(toys[i]);
+//for (let i = 0; i < toys.length; i++) {
+  // if (toys[i].sellCount > 15) {
+    //   popularToys.push(toys[i]);
        
-   }
+  // }
+    
+//}
+
+//console.log(popularToys)
+
+for (const toy of toys) {
+    if (toy.sellCount > 15) {
+        popularToys.push(toy.name)
+    }
     
 }
 

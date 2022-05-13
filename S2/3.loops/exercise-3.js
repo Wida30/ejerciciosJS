@@ -14,10 +14,16 @@ for (let i = 0; i < placesToTravel.length; i++) {
    if (placesToTravel[i].id === 11  ) {
        placesToTravel.splice(1,1);
      
+     
    }else (placesToTravel[i].id === 40 )
    placesToTravel.splice(1,1);
+  
    
     
 }
 
 console.log(placesToTravel);
+
+// if ......  || ........
+// splice())
+//i--
