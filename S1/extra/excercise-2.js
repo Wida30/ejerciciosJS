@@ -12,8 +12,10 @@ const foodSchedule = [
 ];
 
 for (let i = 0; i < foodSchedule.length; i++) {
-    if (foodSchedule[i.isVegan === "true"]) {
-        
+    if (foodSchedule[i].isVegan === false) {
+        foodSchedule[i].isVegan = fruits;        
     }
     
 }
+
+console.log(foodSchedule)

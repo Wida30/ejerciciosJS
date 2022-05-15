@@ -2,7 +2,13 @@
 // del texto "Usuarios menores de edad:" y otro que imprima a los usuarios mayores de edad, precedido del texto 
 //"Usuarios mayores de edad:".
 
-const users = [{name: "Abel", years: 43}, {name: "Maria", years: 18}, {name: "Pedro", years: 14}, {name: "Samantha", years: 32}, {name: "Raquel", years: 16}];
+const users = [
+    {name: "Abel", years: 43}, 
+    {name: "Maria", years: 18}, 
+    {name: "Pedro", years: 14}, 
+    {name: "Samantha", years: 32}, 
+    {name: "Raquel", years: 16}
+];
 
 
 for (let i = 0; i < users.length; i++) {
