@@ -30,7 +30,7 @@ console.log(typeof(category))
 for (let i = 0; i < category.length; i++) {
     for (let e = 1; e < category.length; e++) {
         if (category[i] === category[e]) {
-           category.splice(e,1);
+           category.splice(1,1);
         }
     };    
 }

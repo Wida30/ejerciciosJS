@@ -39,9 +39,14 @@ let volumeAverage = 0;
 //console.log(users[3].favoritesSounds.waves.volume)
 
 for (const user of users) {
-   for (const sound in user.favoritesSounds) {
-       for (const iterator of object) {
-           console.log(sound)
+   for (const key in object) {
+       if (Object.hasOwnProperty.call(object, key)) {
+           const element = object[key];
+           for (const sound in user.favoritesSounds) {
+               for (const iterator of object) {
+                   
+               }
+           }
        }
    }
    
