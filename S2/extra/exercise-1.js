@@ -21,6 +21,9 @@ const category = [];
 
 for (const movie of movies) {
   for (let e = 0; e < movie.categories.length; e++) {
+    if (condition) {
+      
+    }
     category.push(movie.categories[e]); 
   }  
 }
